@@ -1,2 +1,20 @@
-BasedOnStyle: LLVM
+BasedOnStyle: Google
 IndentWidth: 4
+Language: Cpp
+
+DerivePointerAlignment: false
+PointerAlignment: Right
+
+BreakAfterOpenBracketBracedList: true
+BreakAfterOpenBracketFunction: true
+BreakAfterOpenBracketIf: true
+BreakAfterOpenBracketLoop: true
+BreakAfterOpenBracketSwitch: true
+
+BreakBeforeCloseBracketBracedList: true
+BreakBeforeCloseBracketFunction: true
+BreakBeforeCloseBracketIf: true
+BreakBeforeCloseBracketLoop: true
+BreakBeforeCloseBracketSwitch: true
+
+BinPackParameters: false  # change this after clang-format 23
